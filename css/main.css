@@ -50,6 +50,11 @@ a:visited {
     color: #fff;
 }
 
+nav a:hover {
+    color: #1e358c;
+    text-shadow: 0px 0px 30px #fff;
+}
+
 ul {
     list-style: none;
 }
