@@ -1,0 +1,84 @@
+html {
+    font-family: 'Hachi Maru Pop', cursive;
+    color: #fff;
+    background: url(../img/bg3.jpg) left top no-repeat, url(../img/bg4.jpg) center top no-repeat, url(../img/bg5.jpg) right top no-repeat;
+    background-size: 33.33%, 33.33%, 33.33%;
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    margin-bottom: 200px;
+}
+
+main {
+    margin-bottom: 500px;
+}
+
+footer {
+    width: 100%;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6) 17%, rgba(170, 182, 255, 0.2) 50%, rgba(0, 0, 0, 1) 96%) no-repeat;
+    height: 100%;
+    margin: 0;
+}
+
+.icon {
+    width: 30px;
+}
+
+header>h2 {
+    margin-top: 0;
+    margin-left: 80px;
+    padding: 20px 0px 10px 40px;
+    font-size: 80px;
+    text-shadow: 5px 5px 10px #2c2b39;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+nav>ul {
+    padding: 50px 0px 10px 40px;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 20px;
+}
+
+.social {
+    width: 20%;
+    margin: auto;
+}
+
+.social li {
+    display: inline;
+    padding: 10px;
+}
+
+.about {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(3, 3, 3, 0.1);
+}
